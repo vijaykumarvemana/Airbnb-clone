@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
 body{
     
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 .big{
@@ -172,4 +172,22 @@ border-radius: 14px;
     border-radius: 7px;
     height: 43px;
     width: 123px;
+}
+.nav-links{
+    margin-left: 0px;
+    padding:0px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color: rgb(228, 228, 228);
+}
+.footer-links{
+    color: black;
+}
+.footer-info{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
 }
